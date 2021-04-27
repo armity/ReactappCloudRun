@@ -1,0 +1,14 @@
+.List {
+  // display: flex;
+  // justify-content: space-between;
+  width: 100%;
+  font-family: sans-serif;
+  // color: #646464;
+  padding: 20px 30px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  // grid-template-rows: min-content 100px min-content;
+  justify-items: center;
+  align-items: center;
+}
